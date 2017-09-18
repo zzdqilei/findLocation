@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/qilei/Desktop/biaoding/2_ShowImage.cpp
+/home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/2_ShowImage.cpp
 opencv2/core/core.hpp
 -
 opencv2/imgproc/imgproc.hpp

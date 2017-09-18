@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/qilei/Desktop/biaoding
+CMAKE_SOURCE_DIR = /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/qilei/Desktop/biaoding
+CMAKE_BINARY_DIR = /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding
 
 # Include any dependencies generated for this target.
 include CMakeFiles/DisplayImage.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/DisplayImage.dir/flags.make
 
 CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o: CMakeFiles/DisplayImage.dir/flags.make
 CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o: 2_ShowImage.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/qilei/Desktop/biaoding/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o -c /home/qilei/Desktop/biaoding/2_ShowImage.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o -c /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/2_ShowImage.cpp
 
 CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/qilei/Desktop/biaoding/2_ShowImage.cpp > CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/2_ShowImage.cpp > CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.i
 
 CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/qilei/Desktop/biaoding/2_ShowImage.cpp -o CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/2_ShowImage.cpp -o CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.s
 
 CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o.requires:
 .PHONY : CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o.requires
@@ -161,6 +161,6 @@ CMakeFiles/DisplayImage.dir/clean:
 .PHONY : CMakeFiles/DisplayImage.dir/clean
 
 CMakeFiles/DisplayImage.dir/depend:
-	cd /home/qilei/Desktop/biaoding && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qilei/Desktop/biaoding /home/qilei/Desktop/biaoding /home/qilei/Desktop/biaoding /home/qilei/Desktop/biaoding /home/qilei/Desktop/biaoding/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding /home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/CMakeFiles/DisplayImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/DisplayImage.dir/depend
 

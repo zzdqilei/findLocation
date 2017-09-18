@@ -56,14 +56,15 @@ int main( )
 	int total = image_points_seq.size();  
         cout<<"total = "<<total<<endl;  
         int CornerNum=board_size.width*board_size.height;  //每张图片上总的角点数  
-        for (int ii=0 ; ii<total ;ii++)  
+        
+	for (int ii=0 ; ii<CornerNum ;ii++)  
         {  
             if (0 == ii%CornerNum)// 24 是每幅图片的角点个数。此判断语句是为了输出 图片号，便于控制台观看   
             {     
                 int i = -1;  
                 i = ii/CornerNum;  
                 int j=i+1;  
-                cout<<"--> 第 "<<j <<"图片的数据 --> : "<<endl;  
+                cout<<"--> di "<<j <<"fu--> : "<<endl;  
             }  
             if (0 == ii%3)  // 此判断语句，格式化输出，便于控制台查看  
             {  
@@ -74,11 +75,12 @@ int main( )
                 cout.width(10);  
             }  
             //输出所有的角点  
-            cout<<" -->"<<image_points_seq[ii][0].x;  
-            cout<<" -->"<<image_points_seq[ii][0].y;  
+            cout<<" -->"<<image_points_seq[0][ii].x;  
+            cout<<" -->"<<image_points_seq[0][ii].y;  
         }     
-        cout<<"角点提取完成！\n";  
-    	waitKey(1);    
+        cout<<"角点提取完成！\n"; 
+	image_points_seq.clear(); 
+    	waitKey(30);    
     }   
     waitKey(0);
     return 0;  

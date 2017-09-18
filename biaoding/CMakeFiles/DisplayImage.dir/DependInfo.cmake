@@ -4,7 +4,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 SET(CMAKE_DEPENDS_CHECK_CXX
-  "/home/qilei/Desktop/biaoding/2_ShowImage.cpp" "/home/qilei/Desktop/biaoding/CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o"
+  "/home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/2_ShowImage.cpp" "/home/qilei/Desktop/findLocation/gitqu/findLocation/biaoding/CMakeFiles/DisplayImage.dir/2_ShowImage.cpp.o"
   )
 SET(CMAKE_CXX_COMPILER_ID "GNU")
 
